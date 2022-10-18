@@ -1,14 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 
 /**
- * _printf - formats the outputs 
- * @format: is a character string. The format string is composed of zero 
- * or more derivatives 
- * Description: this function will call the get_print() function that will
- * determine which printing function to call depending on the conversion
- * specifiers contained into fmt
+ * _printf - function, my printf mimics printf function
+ * @format: is a character string. formats the outputs
  *
- * Return: the number of characters printed
+ * Return: number of chars that print;
  */
 
 int _printf(const char *format, ...)
