@@ -2,7 +2,7 @@
 
 /**
  * get_print - selects the right printing function
- * depending on the conversion specifier passed to _printf
+ * depending on the conversion specifier passed to _printf.
  * @s: character that holds the conversion specifier
  * func_arr[] to find a match between the specifier passed to _printf
  * and the first element of the struct, and then the approriate
